@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 20px;
+    font-size: 10px;
+    overflow: auto;
+}
+
+
+
+h1 {
+    border-width: 3px;
+    border-style: solid;
+    background-color: aqua;
+}
+
+h1:focus {
+    outline: 10px solid red;
+}
+
+li:first-child {
+    color: red;
+
+}
+
+li:last-child {
+    color:blueviolet;
+}
