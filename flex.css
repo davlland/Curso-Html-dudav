@@ -1,0 +1,26 @@
+.parent {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100px;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+.item {
+    border: 1px solid #000;
+    
+    height: 200px;
+    background: #00aeff;
+    opacity: .9;
+    flex-basis: 0 ;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.item:first-child {
+    background: yellow;
+}
+
+.item:last-child {
+    background: red;
+}
